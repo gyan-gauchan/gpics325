@@ -50,7 +50,7 @@
                 echo '<p>You are logged in as: '.$_SESSION['valid_user'].'
                 <br/>';
                 echo '  </p>';
-                header("Location: members.php");
+                header("Location: profile.php");
             }
             
 
